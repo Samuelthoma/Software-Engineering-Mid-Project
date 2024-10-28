@@ -15,15 +15,30 @@ INSERT INTO product VALUES (DEFAULT, 'Laptop Stand', 180000);
 INSERT INTO product VALUES (DEFAULT, 'Webcam', 300000);
 INSERT INTO product VALUES (DEFAULT, 'HDMI Cable', 50000);
 
-CREATE TABLE order_history (
+CREATE TABLE materials (
     id INT AUTO_INCREMENT PRIMARY KEY,
-    order_number VARCHAR(255) NOT NULL,
-    customer_ref VARCHAR(255) NOT NULL,
-    order_date DATE NOT NULL,
-    product_name VARCHAR(255) NOT NULL,
-    quantity INT NOT NULL,
-    price INT NOT NULL,
-    discount DECIMAL(5, 2) NOT NULL,
-    subtotal DECIMAL(10, 2) NOT NULL,
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+    material_name VARCHAR(255) NOT NULL,
+    days INT NOT NULL
 );
+
+INSERT INTO materials (material_name, days) VALUES 
+('Cable', 2),
+('Bolt', 1),
+('Cap', 3),
+('Screw', 2),
+('Nut', 1),
+('Washer', 1),
+('Pipe', 5),
+('Connector', 3),
+('Bracket', 4),
+('Sealant', 2),
+('Adhesive', 1),
+('Insulation', 3),
+('Joint', 2),
+('Gasket', 3),
+('Fastener', 2),
+('Stud', 1),
+('Clamp', 2),
+('Tape', 1),
+('Filter', 4),
+('Relay', 3);
