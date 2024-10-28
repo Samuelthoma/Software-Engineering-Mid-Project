@@ -11,7 +11,7 @@
     <script src="../../js/order/removeRow.js"></script>
     <script src="../../js/order/updateTotal.js"></script>
     <script src="../../js/order/submitForm.js"></script>
-    <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <div>
