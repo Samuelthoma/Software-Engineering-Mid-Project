@@ -1,5 +1,5 @@
 <?php
-include 'connection.php';
+include '../connection.php';
 
 $sql = "SELECT id, name, price FROM product";
 $result = $conn->query($sql);

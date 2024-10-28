@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Order Creation</title>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <script src="../js/addRow.js"></script>
-    <script src="../js/updatePrice.js"></script>
-    <script src="../js/calculateSubtotal.js"></script>
-    <script src="../js/removeRow.js"></script>
-    <script src="../js/updateTotal.js"></script>
-    <script src="../js/submitForm.js"></script>
-    <link rel="stylesheet" href="../style.css">
+    <script src="../../js/order/addRow.js"></script>
+    <script src="../../js/order/updatePrice.js"></script>
+    <script src="../../js/order/calculateSubtotal.js"></script>
+    <script src="../../js/order/removeRow.js"></script>
+    <script src="../../js/order/updateTotal.js"></script>
+    <script src="../../js/order/submitForm.js"></script>
+    <link rel="stylesheet" href="../../style.css">
 </head>
 <body>
     <div>
